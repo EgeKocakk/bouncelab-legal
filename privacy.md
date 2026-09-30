@@ -22,6 +22,7 @@ Bu politika, BounceLab mobil uygulamasının ("Uygulama") hangi verileri neden i
 | Google hesabı e-postası, adı ve profil fotoğrafı bağlantısı (yalnızca "Google ile bağla" seçilirse) | Hesabını cihazlar arasında tanımak | Açık rıza / sözleşme | Supabase (AB) |
 | Apple kimliği ve e-postası (yalnızca "Apple ile bağla" seçilirse; Apple'ın gizli e-posta aktarımı kullanılabilir) | Hesabını cihazlar arasında tanımak | Açık rıza / sözleşme | Supabase (AB) |
 | Projeler ve küçük resimleri (yalnızca Pro bulut senkronu) | Cihazlar arası senkron | Sözleşmenin ifası | Supabase (AB) |
+| Video bilgisi: mod adı, katılımcı adları, üst başlık (yalnızca YouTube'a yüklerken, kişisel veri içermez) | Güncel trendlere göre başlık, açıklama ve etiket önerisi | Meşru menfaat | Google Gemini (ABD), sunucumuz üzerinden |
 | Satın alma durumu | Pro özelliklerini açmak | Sözleşmenin ifası | Google Play, App Store, RevenueCat (ABD) |
 | Anonim kullanım olayları (örn. "video üretildi", mod adı, çözünürlük) | Ürünü geliştirmek | Meşru menfaat | PostHog (AB) |
 | Çökme raporları (cihaz modeli, hata izi) | Hataları düzeltmek | Meşru menfaat | Sentry |

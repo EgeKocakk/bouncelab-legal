@@ -22,6 +22,7 @@ This policy explains what data the BounceLab mobile app ("App") processes and wh
 | Google account email, name and profile photo link (only if you choose "Link with Google") | Recognizing your account across devices | Consent / contract | Supabase (EU) |
 | Apple ID and email (only if you choose "Sign in with Apple"; Apple's private email relay may be used) | Recognizing your account across devices | Consent / contract | Supabase (EU) |
 | Projects and thumbnails (Pro cloud sync only) | Syncing between devices | Contract | Supabase (EU) |
+| Video info: mode name, participant names, hook text (only when uploading to YouTube; no personal data) | Title, description and tag suggestions based on current trends | Legitimate interest | Google Gemini (US), via our server |
 | Purchase status | Unlocking Pro features | Contract | Google Play, App Store, RevenueCat (US) |
 | Anonymous usage events (e.g. "video created", mode, resolution) | Improving the product | Legitimate interest | PostHog (EU) |
 | Crash reports (device model, stack trace) | Fixing bugs | Legitimate interest | Sentry |
