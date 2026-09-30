@@ -28,6 +28,12 @@ This policy explains what data the BounceLab mobile app ("App") processes and wh
 
 Analytics events **never** include your name, email, file names, video content or location; IP-based location lookup is disabled. No person profiles are created and no session recording takes place.
 
+## Uploading to YouTube (YouTube API Services)
+The Pro feature "Upload to YouTube Shorts" uses **YouTube API Services**. By using it you agree to the [YouTube Terms of Service](https://www.youtube.com/t/terms); how Google processes data is described in the [Google Privacy Policy](https://policies.google.com/privacy).
+- The App only requests permission to **upload videos** (`youtube.upload`); it does not read, delete or change your channel details, watch history or existing videos.
+- The video, title, description and tags are sent directly from your device to YouTube; they do not pass through or get stored on our servers.
+- The access token stays in the Google session on your device. You can revoke access anytime in Settings → Account → YouTube → "Disconnect" or on the [Google account permissions](https://myaccount.google.com/permissions) page.
+
 ## Data we don't process
 Location, contacts, microphone, camera (images you pick stay on your device), advertising ID.
 

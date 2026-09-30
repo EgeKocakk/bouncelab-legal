@@ -28,6 +28,12 @@ Bu politika, BounceLab mobil uygulamasının ("Uygulama") hangi verileri neden i
 
 Analitik olaylarında ad, e-posta, dosya adı, video içeriği ya da konum **gönderilmez**; IP adresinden konum çıkarımı kapalıdır. Kişi profili oluşturulmaz, oturum kaydı yapılmaz.
 
+## YouTube'a yükleme (YouTube API Hizmetleri)
+Pro'daki "YouTube Shorts'a yükle" özelliği **YouTube API Hizmetlerini** kullanır. Bu özelliği kullanırsan [YouTube Hizmet Şartları](https://www.youtube.com/t/terms)'nı kabul etmiş olursun; Google'ın verilerini nasıl işlediği [Google Gizlilik Politikası](https://policies.google.com/privacy)'nda açıklanır.
+- Uygulama yalnızca **video yükleme** izni (`youtube.upload`) ister; kanal bilgilerini, izleme geçmişini ya da mevcut videolarını okumaz, silmez veya değiştirmez.
+- Video, başlık, açıklama ve etiketler doğrudan cihazından YouTube'a gönderilir; bizim sunucularımızdan geçmez ve bizde saklanmaz.
+- Erişim belirteci yalnızca cihazındaki Google oturumunda tutulur. İzni Ayarlar → Hesap → YouTube → "Bağlantıyı kaldır" ile ya da [Google hesap izinleri](https://myaccount.google.com/permissions) sayfasından istediğin zaman geri alabilirsin.
+
 ## İşlemediğimiz veriler
 Konum, kişiler, mikrofon, kamera (kendi seçtiğin görseller hariç, onlar cihazdan çıkmaz), reklam kimliği.
 
