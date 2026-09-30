@@ -6,7 +6,7 @@ permalink: /privacy-en/
 
 # BounceLab Privacy Policy
 
-Last updated: 29 September 2026
+Last updated: 30 September 2026
 
 This policy explains what data the BounceLab mobile app ("App") processes and why. Controller: **Zeriva Tech**, contact: **zerivatech@gmail.com**.
 
@@ -19,13 +19,14 @@ This policy explains what data the BounceLab mobile app ("App") processes and wh
 | Data | Purpose | Legal basis (GDPR Art. 6) | Where |
 |---|---|---|---|
 | Anonymous account ID (random) | Matching in-app records, daily export limit | Contract | Supabase (EU – Frankfurt) |
-| Google account email (only if you choose "Link with Google") | Recognizing your account across devices | Consent / contract | Supabase (EU) |
+| Google account email, name and profile photo link (only if you choose "Link with Google") | Recognizing your account across devices | Consent / contract | Supabase (EU) |
+| Apple ID and email (only if you choose "Sign in with Apple"; Apple's private email relay may be used) | Recognizing your account across devices | Consent / contract | Supabase (EU) |
 | Projects and thumbnails (Pro cloud sync only) | Syncing between devices | Contract | Supabase (EU) |
-| Purchase status | Unlocking Pro features | Contract | Google Play, RevenueCat (US) |
+| Purchase status | Unlocking Pro features | Contract | Google Play, App Store, RevenueCat (US) |
 | Anonymous usage events (e.g. "video created", mode, resolution) | Improving the product | Legitimate interest | PostHog (EU) |
 | Crash reports (device model, stack trace) | Fixing bugs | Legitimate interest | Sentry |
 
-Analytics events **never** include your name, email, file names, video content or location. No person profiles are created and no session recording takes place.
+Analytics events **never** include your name, email, file names, video content or location; IP-based location lookup is disabled. No person profiles are created and no session recording takes place.
 
 ## Data we don't process
 Location, contacts, microphone, camera (images you pick stay on your device), advertising ID.
